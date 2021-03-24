@@ -45,3 +45,78 @@ color: #000;
 body{
 background: linear-gradient(90deg, #39C304, #03B8D6);
 }
+
+.container{
+  width: 1250px;
+  height: auto;
+  position: absolute;
+  top: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.box{
+  width: 20%;
+  height: 200px;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 50px;
+  border: 1px solid transparent;
+  font-size: 30px;
+  background-image: linear-gradient(to left, #009432, #C4E538);
+  border-radius: 30px;
+}
+
+h1{
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  font-size: 50px;
+  font-family: "montserrant", Times-New-Roman;
+}
+
+@media all and (max-width: 500px) {
+  .logo img{
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+
+  ul{
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+
+  ul li a{
+    border: 1px solid;
+  }
+
+  .container{
+    width: 1250px;
+    height: auto;
+    position: absolute;
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
+  .box{
+    width: 20%;
+    height: 150px;
+    margin: 20px;
+
+  }
+
+  h1{
+    position: absolute;
+    top: 220px;
+    left: 200px;
+  }
+
+  body{
+  background: linear-gradient(90deg, #39C304, #03B8D6);
+  }
+
+}
